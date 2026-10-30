@@ -1,0 +1,851 @@
+{
+  "schema_version": 1,
+  "is_demo": true,
+  "accounting_anchor": "2026-10-29",
+  "notice": "All filings, financial figures, deals and executive names are synthetic FINN demo fixtures, not statements about actual issuers.",
+  "records": [
+    {
+      "seed_id": "reliance-results",
+      "symbol": "RELIANCE",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 260,000.00 crore; PBT INR 36,400.00 crore; PAT INR 27,300.00 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 35,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 260000.0,
+          "ebitda": 46800.0,
+          "pbt": 36400.0,
+          "pat": 27300.0
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 244400.0,
+          "ebitda": 43992.0,
+          "pbt": 34216.0,
+          "pat": 25662.0
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 223600.0,
+          "ebitda": 40248.0,
+          "pbt": 31304.0,
+          "pat": 23478.0
+        }
+      }
+    },
+    {
+      "seed_id": "tcs-results",
+      "symbol": "TCS",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 65,000.00 crore; PBT INR 9,100.00 crore; PAT INR 6,825.00 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 44,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 65000.0,
+          "ebitda": 12350.0,
+          "pbt": 9100.0,
+          "pat": 6825.0
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 61100.0,
+          "ebitda": 11609.0,
+          "pbt": 8554.0,
+          "pat": 6415.5
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 55900.0,
+          "ebitda": 10621.0,
+          "pbt": 7826.0,
+          "pat": 5869.5
+        }
+      }
+    },
+    {
+      "seed_id": "hdfcbank-results",
+      "symbol": "HDFCBANK",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 85,000.00 crore; PBT INR 11,900.00 crore; PAT INR 8,925.00 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 53,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 85000.0,
+          "ebitda": null,
+          "pbt": 11900.0,
+          "pat": 8925.0
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 79900.0,
+          "ebitda": null,
+          "pbt": 11186.0,
+          "pat": 8389.5
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 73100.0,
+          "ebitda": null,
+          "pbt": 10234.0,
+          "pat": 7675.5
+        }
+      }
+    },
+    {
+      "seed_id": "infy-results",
+      "symbol": "INFY",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 42,000.00 crore; PBT INR 5,880.00 crore; PAT INR 4,410.00 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 62,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 42000.0,
+          "ebitda": 8820.0,
+          "pbt": 5880.0,
+          "pat": 4410.0
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 39480.0,
+          "ebitda": 8290.8,
+          "pbt": 5527.2,
+          "pat": 4145.4
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 36120.0,
+          "ebitda": 7585.2,
+          "pbt": 5056.8,
+          "pat": 3792.6
+        }
+      }
+    },
+    {
+      "seed_id": "tmpv-results",
+      "symbol": "TMPV",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 110,000.00 crore; PBT INR 15,400.00 crore; PAT INR 11,550.00 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 71,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 110000.0,
+          "ebitda": 19800.0,
+          "pbt": 15400.0,
+          "pat": 11550.0
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 103400.0,
+          "ebitda": 18612.0,
+          "pbt": 14476.0,
+          "pat": 10857.0
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 94600.0,
+          "ebitda": 17028.0,
+          "pbt": 13244.0,
+          "pat": 9933.0
+        }
+      }
+    },
+    {
+      "seed_id": "sunpharma-results",
+      "symbol": "SUNPHARMA",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 13,000.00 crore; PBT INR 1,820.00 crore; PAT INR 1,365.00 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 80,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 13000.0,
+          "ebitda": 2470.0,
+          "pbt": 1820.0,
+          "pat": 1365.0
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 12220.0,
+          "ebitda": 2321.8,
+          "pbt": 1710.8,
+          "pat": 1283.1
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 11180.0,
+          "ebitda": 2124.2,
+          "pbt": 1565.2,
+          "pat": 1173.9
+        }
+      }
+    },
+    {
+      "seed_id": "lt-results",
+      "symbol": "LT",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 67,000.00 crore; PBT INR 9,380.00 crore; PAT INR 7,035.00 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 89,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 67000.0,
+          "ebitda": 13400.0,
+          "pbt": 9380.0,
+          "pat": 7035.0
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 62980.0,
+          "ebitda": 12596.0,
+          "pbt": 8817.2,
+          "pat": 6612.9
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 57620.0,
+          "ebitda": 11524.0,
+          "pbt": 8066.8,
+          "pat": 6050.1
+        }
+      }
+    },
+    {
+      "seed_id": "itc-results",
+      "symbol": "ITC",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 19,000.00 crore; PBT INR 2,660.00 crore; PAT INR 1,995.00 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 98,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 19000.0,
+          "ebitda": 3990.0,
+          "pbt": 2660.0,
+          "pat": 1995.0
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 17860.0,
+          "ebitda": 3750.6,
+          "pbt": 2500.4,
+          "pat": 1875.3
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 16340.0,
+          "ebitda": 3431.4,
+          "pbt": 2287.6,
+          "pat": 1715.7
+        }
+      }
+    },
+    {
+      "seed_id": "persistent-results",
+      "symbol": "PERSISTENT",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 3,500.00 crore; PBT INR 490.00 crore; PAT INR 367.50 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 107,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 3500.0,
+          "ebitda": 630.0,
+          "pbt": 490.0,
+          "pat": 367.5
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 3290.0,
+          "ebitda": 592.2,
+          "pbt": 460.6,
+          "pat": 345.45
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 3010.0,
+          "ebitda": 541.8,
+          "pbt": 421.4,
+          "pat": 316.05
+        }
+      }
+    },
+    {
+      "seed_id": "dixon-results",
+      "symbol": "DIXON",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 12,000.00 crore; PBT INR 1,680.00 crore; PAT INR 1,260.00 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 116,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 12000.0,
+          "ebitda": 2280.0,
+          "pbt": 1680.0,
+          "pat": 1260.0
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 11280.0,
+          "ebitda": 2143.2,
+          "pbt": 1579.2,
+          "pat": 1184.4
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 10320.0,
+          "ebitda": 1960.8,
+          "pbt": 1444.8,
+          "pat": 1083.6
+        }
+      }
+    },
+    {
+      "seed_id": "polycab-results",
+      "symbol": "POLYCAB",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 7,500.00 crore; PBT INR 1,050.00 crore; PAT INR 787.50 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 125,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 7500.0,
+          "ebitda": 1500.0,
+          "pbt": 1050.0,
+          "pat": 787.5
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 7050.0,
+          "ebitda": 1410.0,
+          "pbt": 987.0,
+          "pat": 740.25
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 6450.0,
+          "ebitda": 1290.0,
+          "pbt": 903.0,
+          "pat": 677.25
+        }
+      }
+    },
+    {
+      "seed_id": "trent-results",
+      "symbol": "TRENT",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 5,200.00 crore; PBT INR 728.00 crore; PAT INR 546.00 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 134,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 5200.0,
+          "ebitda": 1092.0,
+          "pbt": 728.0,
+          "pat": 546.0
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 4888.0,
+          "ebitda": 1026.48,
+          "pbt": 684.32,
+          "pat": 513.24
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 4472.0,
+          "ebitda": 939.12,
+          "pbt": 626.08,
+          "pat": 469.56
+        }
+      }
+    },
+    {
+      "seed_id": "maxhealth-results",
+      "symbol": "MAXHEALTH",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 2,500.00 crore; PBT INR 350.00 crore; PAT INR 262.50 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 143,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 2500.0,
+          "ebitda": 450.0,
+          "pbt": 350.0,
+          "pat": 262.5
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 2350.0,
+          "ebitda": 423.0,
+          "pbt": 329.0,
+          "pat": 246.75
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 2150.0,
+          "ebitda": 387.0,
+          "pbt": 301.0,
+          "pat": 225.75
+        }
+      }
+    },
+    {
+      "seed_id": "kpittech-results",
+      "symbol": "KPITTECH",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 1,500.00 crore; PBT INR 210.00 crore; PAT INR 157.50 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 152,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 1500.0,
+          "ebitda": 285.0,
+          "pbt": 210.0,
+          "pat": 157.5
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 1410.0,
+          "ebitda": 267.9,
+          "pbt": 197.4,
+          "pat": 148.05
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 1290.0,
+          "ebitda": 245.1,
+          "pbt": 180.6,
+          "pat": 135.45
+        }
+      }
+    },
+    {
+      "seed_id": "kaynes-results",
+      "symbol": "KAYNES",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 1,100.00 crore; PBT INR 154.00 crore; PAT INR 115.50 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 161,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 1100.0,
+          "ebitda": 220.0,
+          "pbt": 154.0,
+          "pat": 115.5
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 1034.0,
+          "ebitda": 206.8,
+          "pbt": 144.76,
+          "pat": 108.57
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 946.0,
+          "ebitda": 189.2,
+          "pbt": 132.44,
+          "pat": 99.33
+        }
+      }
+    },
+    {
+      "seed_id": "zentec-results",
+      "symbol": "ZENTEC",
+      "desc": "Financial Results - Board approval of unaudited consolidated quarterly results",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board approval for the quarter ended 2026-09-30. Revenue INR 450.00 crore; PBT INR 63.00 crore; PAT INR 47.25 crore. Comparative quarter and year-ago figures are included in the demo headline table. These are invented figures, not issuer disclosures.",
+      "minutes_before_anchor": 170,
+      "demo_financials": {
+        "current": {
+          "period": {
+            "start_on": "2026-07-01",
+            "end_on": "2026-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-09-30"
+          },
+          "revenue": 450.0,
+          "ebitda": 94.5,
+          "pbt": 63.0,
+          "pat": 47.25
+        },
+        "previous_quarter": {
+          "period": {
+            "start_on": "2026-04-01",
+            "end_on": "2026-06-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2026-06-30"
+          },
+          "revenue": 423.0,
+          "ebitda": 88.83,
+          "pbt": 59.22,
+          "pat": 44.41
+        },
+        "year_ago": {
+          "period": {
+            "start_on": "2025-07-01",
+            "end_on": "2025-09-30",
+            "kind": "quarter",
+            "label": "Quarter ended 2025-09-30"
+          },
+          "revenue": 387.0,
+          "ebitda": 81.27,
+          "pbt": 54.18,
+          "pat": 40.63
+        }
+      }
+    },
+    {
+      "seed_id": "infy-management",
+      "symbol": "INFY",
+      "desc": "Appointment of Chief Financial Officer",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative CFO appointment effective next month. Incoming Demo Executive A previously led finance at Demo Manufacturing Group, with 22 years in treasury, controls and capital allocation. Outgoing Demo Executive B retires after a planned transition; a 30-day handover is included.",
+      "minutes_before_anchor": 25,
+      "demo_executives": {
+        "incoming": "Demo Executive A",
+        "outgoing": "Demo Executive B"
+      }
+    },
+    {
+      "seed_id": "reliance-subsidiary",
+      "symbol": "RELIANCE",
+      "desc": "Acquisition of a subsidiary stake",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative acquisition of a 75% stake in Demo Storage Platforms Private Limited for INR 1,250 crore in cash. The remaining 25% is retained by the fictional founders. Closing is subject to customary approvals; no relationship with promoters is assumed.",
+      "minutes_before_anchor": 36
+    },
+    {
+      "seed_id": "dixon-plant",
+      "symbol": "DIXON",
+      "desc": "Capacity expansion - new manufacturing facility",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative board-approved capex of INR 1,500 crore for a new electronics plant in Noida. Planned capacity is 8 million units per year, with phased commissioning over 24 months. Funding is a mix of internal accruals and term loans.",
+      "minutes_before_anchor": 47
+    },
+    {
+      "seed_id": "kaynes-pledge",
+      "symbol": "KAYNES",
+      "desc": "Disclosure of promoter share pledge under Regulation 31(1)",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative creation of a pledge over 2.0% of outstanding equity held by a promoter entity. Total encumbered promoter holding rises from 3.0% to 5.0% of outstanding equity. The fictional lender is Demo Bank and the stated purpose is a promoter-level facility.",
+      "minutes_before_anchor": 58
+    },
+    {
+      "seed_id": "sunpharma-legal",
+      "symbol": "SUNPHARMA",
+      "desc": "Regulatory order and monetary penalty",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative regulatory order imposing an INR 3.5 crore penalty. The company intends to pursue the available appellate remedy. Financial impact beyond the stated amount has not been quantified in this fictional filing.",
+      "minutes_before_anchor": 69
+    },
+    {
+      "seed_id": "polycab-funding",
+      "symbol": "POLYCAB",
+      "desc": "Issuance of commercial paper",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative issuance of INR 500 crore commercial paper with a 90-day tenor for working-capital funding. The fictional allotment is on normal commercial terms; repayment and rating details are included in the simulated disclosure.",
+      "minutes_before_anchor": 80
+    },
+    {
+      "seed_id": "persistent-insider",
+      "symbol": "PERSISTENT",
+      "desc": "Disclosure under SEBI PIT Regulation 7(2) - promoter acquisition of shares",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative promoter purchase of 100,000 equity shares through market transactions. This is a personal shareholding change, not a corporate acquisition or a subsidiary investment.",
+      "minutes_before_anchor": 91
+    },
+    {
+      "seed_id": "tcs-call",
+      "symbol": "TCS",
+      "desc": "Earnings conference call transcript",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Transcript of an illustrative earnings conference call to discuss quarterly financial results, customer spending, utilization and operating margins. This is a transcript document, not a new results release.",
+      "minutes_before_anchor": 102
+    },
+    {
+      "seed_id": "tcs-meetings",
+      "symbol": "TCS",
+      "desc": "Schedule of investor meetings",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative one-on-one investor meetings with Demo Long-Term Fund and Demo Capital on the next business day. No unpublished price-sensitive information is intended to be shared.",
+      "minutes_before_anchor": 113
+    },
+    {
+      "seed_id": "lt-rating",
+      "symbol": "LT",
+      "desc": "Credit Rating - reaffirmation",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative reaffirmation of long-term AAA / Stable and short-term A1+ credit ratings by Demo Ratings. There is no new issue of securities in this simulated rating update.",
+      "minutes_before_anchor": 124
+    },
+    {
+      "seed_id": "itc-dividend",
+      "symbol": "ITC",
+      "desc": "Declaration of interim dividend and record date",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative interim dividend of INR 6.50 per equity share. The record date is seven calendar days after this demo's anchor date and payment is proposed within 30 days.",
+      "minutes_before_anchor": 135
+    },
+    {
+      "seed_id": "trent-split",
+      "symbol": "TRENT",
+      "desc": "Board approves bonus issue",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative 1:1 bonus issue, subject to shareholder approval. Each eligible shareholder would receive one additional share for each share held; the record date will be announced separately.",
+      "minutes_before_anchor": 146
+    },
+    {
+      "seed_id": "lt-orders",
+      "symbol": "LT",
+      "desc": "Press Release - order win",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative order win of INR 2,450 crore for an industrial electrification project. The fictional execution schedule is 30 months. The release does not state the contract's expected margin.",
+      "minutes_before_anchor": 157
+    },
+    {
+      "seed_id": "maxhealth-ballot",
+      "symbol": "MAXHEALTH",
+      "desc": "Postal Ballot Notice",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative notice of postal ballot for a registered-office administrative resolution. Electronic voting remains open for 30 days; the scrutinizer's report will be filed separately.",
+      "minutes_before_anchor": 168
+    },
+    {
+      "seed_id": "tmpv-agm",
+      "symbol": "TMPV",
+      "desc": "Notice of Annual General Meeting",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative AGM notice, attendance instructions and electronic voting procedures. This routine notice contains meeting logistics and no new financial result or material transaction.",
+      "minutes_before_anchor": 179
+    },
+    {
+      "seed_id": "kpittech-esop",
+      "symbol": "KPITTECH",
+      "desc": "ESOP allotment",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative allotment of 12,000 equity shares pursuant to employee stock-option exercises. The filing records a routine change in paid-up share capital under an existing employee plan.",
+      "minutes_before_anchor": 190
+    },
+    {
+      "seed_id": "kaynes-compliance",
+      "symbol": "KAYNES",
+      "desc": "Compliance Certificate under Regulation 74(5)",
+      "attchmntText": "SYNTHETIC FINN DEMO ONLY. Illustrative registrar certificate confirming dematerialisation and reconciliation compliance for the quarter. This is routine administrative paperwork.",
+      "minutes_before_anchor": 201
+    }
+  ]
+}

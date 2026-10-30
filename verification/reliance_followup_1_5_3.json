@@ -1,0 +1,50 @@
+{
+  "release": "1.5.3",
+  "source": "User-supplied validation/report plus local verification of matching issuer PDF",
+  "user_live_contracts": {
+    "gemini_tier_1": {
+      "status": "passed",
+      "model": "gemini-3.5-flash-lite",
+      "contract": "_MapExtraction"
+    },
+    "gemini_tier_2": {
+      "status": "passed",
+      "model": "gemini-3.8-flash",
+      "contract": "_Cases"
+    }
+  },
+  "uploaded_report": {
+    "mapped_blocks": 30,
+    "total_blocks": 239,
+    "tier1_calls": 17,
+    "tier2_calls": 0,
+    "quota_scope_was_not_recorded": true,
+    "assessed_quarters": 0
+  },
+  "preserved": {
+    "router_configuration_byte_identical": true,
+    "accepted_provider_schema_compiler_identical": true,
+    "production_map_case_timing_model_schemas_identical": true
+  },
+  "primary_pdf_check": {
+    "sha256": "15b62bccf89efd419db6ce21d7a30d27b3caba4f3ecf9b9d3cf9da5943a34e81",
+    "matches_uploaded_report": true,
+    "pages_extracted": 25,
+    "commentary_items": 2,
+    "commentary_pages": [
+      [
+        9,
+        8
+      ],
+      [
+        20,
+        19
+      ]
+    ],
+    "latency_ms": 195.3289080001923,
+    "llm_calls": 0,
+    "execution_verdicts_created": 0
+  },
+  "offline_tests": 353,
+  "live_generation_of_a_corrected_complete_reliance_report": "Not executed in this runtime; no API key available"
+}

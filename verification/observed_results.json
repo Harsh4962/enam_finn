@@ -1,0 +1,622 @@
+{
+  "audit_version": "1.5.0",
+  "recorded_at": "2026-10-29T18:42:28.454468+00:00",
+  "offline_tests_passed": 307,
+  "active_symbols": [
+    "BAJFINANCE",
+    "CIPLA",
+    "DIXON",
+    "HAL",
+    "HDFCBANK",
+    "INFY",
+    "ITC",
+    "KAYNES",
+    "KPITTECH",
+    "LT",
+    "MAXHEALTH",
+    "PERSISTENT",
+    "POLYCAB",
+    "RELIANCE",
+    "SUNPHARMA",
+    "SUZLON",
+    "TCS",
+    "TITAN",
+    "TMPV",
+    "TRENT",
+    "ZENTEC"
+  ],
+  "live_financials": [
+    {
+      "ticker": "BAJAJ-AUTO",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "92ee07a442b3eb28917863064f27b9093e0cba1a9e15e19e4f91e28bb9124ebf"
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "unavailable",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/BAJFINANCE/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "aa7639a458b694e89a3087b7e5c1a5c4c770a826f4ce1c1e3bfdff26b3e626a6"
+    },
+    {
+      "ticker": "CIPLA",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/CIPLA/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "8138488c9d0b06a493b75fbf843cb2c7520ee41718c6453524abeb7406b0bd66"
+    },
+    {
+      "ticker": "COLPAL",
+      "status": "passed",
+      "basis": "standalone",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 4,
+      "annual_links": 4,
+      "source_url": "https://www.screener.in/company/COLPAL/",
+      "reported_gaps": 1,
+      "source_sha256": "4b0b6c62eb2b74f5dc3b138670ff08ab5fccc2926cd7cf8bc16d976524772e84"
+    },
+    {
+      "ticker": "DIXON",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/DIXON/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "9f8417b351c871b71ce5805775440f52e2d7ca4af4b13aebd3172c958a07a4a7"
+    },
+    {
+      "ticker": "HAL",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/HAL/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "7fb3557b10b9e166fd9f8003d02d85ba3cecb9547baa28d112d54292d5765d89"
+    },
+    {
+      "ticker": "HDFCBANK",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "unavailable",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/HDFCBANK/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "1dee430573afb5f2f34e2f257490f1327b3d708fdad120101a32466d69066ed9"
+    },
+    {
+      "ticker": "INFY",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/INFY/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "1dceb9078f1d1fcb7730bbbb68495fde5ade722ea373a6b30eca59239618f98e"
+    },
+    {
+      "ticker": "ITC",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 0,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/ITC/consolidated/",
+      "reported_gaps": 2,
+      "source_sha256": "082a94aceda1c48cc99c48aa30907032048af5dc66d0a490f852aa85f45876dd"
+    },
+    {
+      "ticker": "KAYNES",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 8,
+      "concall_links": 6,
+      "annual_links": 4,
+      "source_url": "https://www.screener.in/company/KAYNES/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "be19c6868b72caeb7918f4009df9a603b7f152e024b43231da749f66c6d874e6"
+    },
+    {
+      "ticker": "KPITTECH",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 9,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/KPITTECH/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "a6202d950b24745bf2ceae2d94c7fb009a0b008c02da2b3aaf804a87763c4498"
+    },
+    {
+      "ticker": "LT",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/LT/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "922cab9dc6dc34da4b5215b11e7d69ec1b55ff94291eef0dba1eace567db086d"
+    },
+    {
+      "ticker": "M&M",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/M%26M/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "aeda441dc155e3fd801e10e5c54c593912425d386480cf998754ee74927ee880"
+    },
+    {
+      "ticker": "MAXHEALTH",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 10,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/MAXHEALTH/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "0857988eb17bbe0bef3b21f660a5195ce54db34762d7d784f0f3b7f9331d8262"
+    },
+    {
+      "ticker": "NESTLEIND",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 11,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 3,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/NESTLEIND/consolidated/",
+      "reported_gaps": 2,
+      "source_sha256": "33474f6e2ece75b3cb346bc4e1aa70c19729df6493c26e8076b8333d8d4b9b18"
+    },
+    {
+      "ticker": "PERSISTENT",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/PERSISTENT/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "6a024b75a4c37008ac2b606ed52a9d7306344c93e9231ec9a74b2828321b6ccd"
+    },
+    {
+      "ticker": "POLYCAB",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/POLYCAB/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "6b0341ee60b0a38cae82ff4e0963ef2b772f6ae1c7062d1b76acdcc7c2c53efa"
+    },
+    {
+      "ticker": "RELIANCE",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/RELIANCE/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "6adefdde2fd7dc6bd0945363379161e26bc900c2deeb8fba20b3c561d4c2b3e4"
+    },
+    {
+      "ticker": "SUNPHARMA",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/SUNPHARMA/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "7fec9138157b369b4594c0d6fa55f4919e6590b81d4835970cf8a116ab50a430"
+    },
+    {
+      "ticker": "SUZLON",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/SUZLON/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "463959e02829bea061ae977d140a24c20a3204459c62c3ac478652ce85fa2dea"
+    },
+    {
+      "ticker": "TCS",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/TCS/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "e9e4c1ceed0c53b3908ba13fe19f5e13c19b4301b0e47818ede1805aa49aa1a6"
+    },
+    {
+      "ticker": "TITAN",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/TITAN/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "909867304b01386f92c64d4597a7065663bfffa72447d36f3e10a9173d5cf8ab"
+    },
+    {
+      "ticker": "TMPV",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 4,
+      "annual_links": 4,
+      "source_url": "https://www.screener.in/company/TMPV/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "ba7ab3cf162d5ba5e2a592844d7b0476c799e858ca421771bc3abedd584cac44"
+    },
+    {
+      "ticker": "TRENT",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-09-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 0,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/TRENT/consolidated/",
+      "reported_gaps": 2,
+      "source_sha256": "c8e883f933bbf616fcf896eb534a0dde309eff047cbe50c63739314ee00956b9"
+    },
+    {
+      "ticker": "ZENTEC",
+      "status": "passed",
+      "basis": "consolidated",
+      "quarter_columns": 12,
+      "headline_quarter": "2026-06-30",
+      "ebitda_basis": "operating_profit_proxy",
+      "cash_years": 12,
+      "concall_links": 6,
+      "annual_links": 6,
+      "source_url": "https://www.screener.in/company/ZENTEC/consolidated/",
+      "reported_gaps": 1,
+      "source_sha256": "bf80dcfc8050bf14bf5380ddf55e84123dc96fdaf2cdcbfd5fb5784d74c5ad5a"
+    }
+  ],
+  "live_market": [
+    {
+      "ticker": "HAL",
+      "status": "passed",
+      "bars": 35,
+      "session_date": "2026-10-29",
+      "provider_symbol": "HAL.NS",
+      "close_inr": 4869.89990234375,
+      "change_1d_pct": 0.4103072648195876,
+      "change_5d_pct": -0.10461738782051282,
+      "average_volume_20d": 745728.15,
+      "volume_spike_ratio": 0.6832302092927564,
+      "alerts": 0
+    },
+    {
+      "ticker": "HDFCBANK",
+      "status": "passed",
+      "bars": 35,
+      "session_date": "2026-10-29",
+      "provider_symbol": "HDFCBANK.NS",
+      "close_inr": 683.2999877929688,
+      "change_1d_pct": -0.2918429936707085,
+      "change_5d_pct": -1.5488797909476608,
+      "average_volume_20d": 32328862.7,
+      "volume_spike_ratio": 0.9719292723526585,
+      "alerts": 0
+    },
+    {
+      "ticker": "RELIANCE",
+      "status": "passed",
+      "bars": 35,
+      "session_date": "2026-10-29",
+      "provider_symbol": "RELIANCE.NS",
+      "close_inr": 1167.4000244140625,
+      "change_1d_pct": 0.8117464951694733,
+      "change_5d_pct": -1.4436450473564795,
+      "average_volume_20d": 15347243.2,
+      "volume_spike_ratio": 1.3520469265776671,
+      "alerts": 0
+    }
+  ],
+  "dom_cell_comparisons": [
+    {
+      "ticker": "BAJAJ-AUTO",
+      "cells_checked": 560,
+      "status": "passed"
+    },
+    {
+      "ticker": "BAJFINANCE",
+      "cells_checked": 512,
+      "status": "passed"
+    },
+    {
+      "ticker": "CIPLA",
+      "cells_checked": 560,
+      "status": "passed"
+    },
+    {
+      "ticker": "HDFCBANK",
+      "cells_checked": 501,
+      "status": "passed"
+    },
+    {
+      "ticker": "ITC",
+      "cells_checked": 550,
+      "status": "passed"
+    },
+    {
+      "ticker": "KPITTECH",
+      "cells_checked": 435,
+      "status": "passed"
+    },
+    {
+      "ticker": "LT",
+      "cells_checked": 560,
+      "status": "passed"
+    },
+    {
+      "ticker": "M&M",
+      "cells_checked": 550,
+      "status": "passed"
+    },
+    {
+      "ticker": "MAXHEALTH",
+      "cells_checked": 481,
+      "status": "passed"
+    },
+    {
+      "ticker": "NESTLEIND",
+      "cells_checked": 254,
+      "status": "passed"
+    },
+    {
+      "ticker": "RELIANCE",
+      "cells_checked": 550,
+      "status": "passed"
+    },
+    {
+      "ticker": "SUZLON",
+      "cells_checked": 560,
+      "status": "passed"
+    },
+    {
+      "ticker": "TCS",
+      "cells_checked": 536,
+      "status": "passed"
+    },
+    {
+      "ticker": "TRENT",
+      "cells_checked": 560,
+      "status": "passed"
+    }
+  ],
+  "verified_issuer_pdf_headers": [
+    {
+      "ticker": "RELIANCE",
+      "label": "Q4 FY26",
+      "url": "https://www.ril.com/sites/default/files/2026-04/24042026_RIL_Media_Analyst_Call_Transcript_Q4_FY2026.pdf",
+      "status": "passed",
+      "pages_in_pdf": 30,
+      "call_on": "2026-04-24",
+      "reported_quarter": "2026-03-31",
+      "management_names": 9,
+      "llm_calls": 0
+    },
+    {
+      "ticker": "RELIANCE",
+      "label": "Q1 FY27",
+      "url": "https://links.sgx.com/FileOpen/SE_Transcript.ashx?App=Announcement&FileID=896809",
+      "status": "passed",
+      "pages_in_pdf": 32,
+      "call_on": "2026-07-17",
+      "reported_quarter": "2026-06-30",
+      "management_names": 9,
+      "llm_calls": 0
+    }
+  ],
+  "unverified_exchange_pdf_checks": [
+    {
+      "ticker": "TCS",
+      "kind": "concall_transcript",
+      "status": "error",
+      "pages": 0,
+      "total_pages": null,
+      "mismatch": false,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf",
+      "error": "source transport failed: Timeout"
+    },
+    {
+      "ticker": "TCS",
+      "kind": "annual_report",
+      "status": "error",
+      "pages": 0,
+      "total_pages": null,
+      "mismatch": false,
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf",
+      "error": "source transport failed: Timeout"
+    },
+    {
+      "ticker": "HDFCBANK",
+      "kind": "concall_transcript",
+      "status": "error",
+      "pages": 0,
+      "total_pages": null,
+      "mismatch": false,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf",
+      "error": "source transport failed: Timeout"
+    },
+    {
+      "ticker": "HDFCBANK",
+      "kind": "annual_report",
+      "status": "error",
+      "pages": 0,
+      "total_pages": null,
+      "mismatch": false,
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf",
+      "error": "source transport failed: Timeout"
+    },
+    {
+      "ticker": "HAL",
+      "kind": "concall_transcript",
+      "status": "error",
+      "pages": 0,
+      "total_pages": null,
+      "mismatch": false,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344500e7-2fff-4cc6-a792-c4693e0340f6.pdf",
+      "error": "source transport failed: Timeout"
+    },
+    {
+      "ticker": "HAL",
+      "kind": "annual_report",
+      "status": "error",
+      "pages": 0,
+      "total_pages": null,
+      "mismatch": false,
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+      "error": "source transport failed: Timeout"
+    },
+    {
+      "ticker": "NESTLEIND",
+      "kind": "concall_transcript",
+      "status": "error",
+      "pages": 0,
+      "total_pages": null,
+      "mismatch": false,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e83f21-9f3c-47c2-ba36-2a29fe44a380.pdf",
+      "error": "source returned HTTP 403"
+    },
+    {
+      "ticker": "NESTLEIND",
+      "kind": "annual_report",
+      "status": "error",
+      "pages": 0,
+      "total_pages": null,
+      "mismatch": false,
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/65cd4ca1-41a5-4526-b920-66b4133a4e5a.pdf",
+      "error": "source transport failed: Timeout"
+    }
+  ],
+  "nse_access": [
+    {
+      "ticker": "RELIANCE",
+      "source_mode": "demo",
+      "filings": 2,
+      "invalid_rows": 0,
+      "fallback_reason": "NSE transport failure: ReadTimeout"
+    },
+    {
+      "ticker": "TCS",
+      "source_mode": "demo",
+      "filings": 3,
+      "invalid_rows": 0,
+      "fallback_reason": "NSE client is cooling down after an access/transport failure"
+    }
+  ],
+  "credentialed_gemini": {
+    "status": "unverified",
+    "api_key_available_here": false,
+    "actual_provider_calls_executed_here": 0,
+    "verified_by_fixtures": "actual SDK REST serialization, all output schemas, usage/refusal/quota behavior"
+  },
+  "scope_note": "Transport/fixture checks are not a complete credentialed investment-research run. No raw HTML/PDF, databases or credentials included."
+}
