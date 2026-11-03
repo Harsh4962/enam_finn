@@ -7,13 +7,16 @@ name = "finn-foundation"
 version = "1.5.4"
 description = "Strict schemas, routing policy, and SQLite caching for FINN"
 requires-python = ">=3.11"
-dependencies = ["pydantic>=2.12,<3", "requests>=2.32.4,<3", "yfinance>=0.2.66,<2", "pandas>=2.2,<4", "beautifulsoup4>=4.13,<5", "curl_cffi>=0.15,<1", "pymupdf>=1.26.6,<2", "ddgs>=9.16.1,<10", "google-generativeai>=0.8.6,<0.9", "google-api-core>=2.24,<2.34", "tzdata>=2025.2; sys_platform == 'win32'"]
+dependencies = ["pydantic>=2.12,<3", "pydantic-ai>=2.54,<3", "pypdf>=6.21,<7", "requests>=2.32.4,<3", "yfinance>=0.2.66,<2", "pandas>=2.2,<4", "beautifulsoup4>=4.13,<5", "curl_cffi>=0.15,<1", "pymupdf>=1.26.6,<2", "ddgs>=9.16.1,<10", "google-generativeai>=0.8.6,<0.9", "google-api-core>=2.24,<2.34", "tzdata>=2025.2; sys_platform == 'win32'"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
 
 [tool.setuptools.package-data]
 "backend.data" = ["seed_announcements.json"]
 
 [tool.setuptools.packages.find]
-include = ["backend*"]
+include = ["backend*", "finn*"]
 
 [tool.ruff]
 line-length = 120

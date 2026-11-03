@@ -1,0 +1,67 @@
+{
+ "success": true,
+ "count": 6,
+ "lastUpdated": "2026-11-01T14:40:40.000Z",
+ "stocks": [
+  {
+   "id": 0,
+   "symbol": "RELIANCE",
+   "name": "Reliance Industries Ltd",
+   "sector": "Oil, Gas & Consumable Fuels",
+   "industry": "x",
+   "universe": "nifty50",
+   "f_score": 5,
+   "cmp": "1.00"
+  },
+  {
+   "id": 1,
+   "symbol": "TCS",
+   "name": "Tata Consultancy Services Ltd",
+   "sector": "IT",
+   "industry": "x",
+   "universe": "nifty50",
+   "f_score": 5,
+   "cmp": "1.00"
+  },
+  {
+   "id": 2,
+   "symbol": "TATAMOTORS",
+   "name": "Tata Motors Ltd",
+   "sector": "Auto",
+   "industry": "x",
+   "universe": "nifty50",
+   "f_score": 5,
+   "cmp": "1.00"
+  },
+  {
+   "id": 3,
+   "symbol": "TATASTEEL",
+   "name": "Tata Steel Ltd",
+   "sector": "Metals",
+   "industry": "x",
+   "universe": "nifty50",
+   "f_score": 5,
+   "cmp": "1.00"
+  },
+  {
+   "id": 4,
+   "symbol": "INFY",
+   "name": "Infosys Ltd",
+   "sector": "IT",
+   "industry": "x",
+   "universe": "nifty50",
+   "f_score": 5,
+   "cmp": "1.00"
+  },
+  {
+   "id": 5,
+   "symbol": "ZENTEC",
+   "name": "Zen Technologies Ltd",
+   "sector": "Industrials",
+   "industry": "x",
+   "universe": "nifty500",
+   "f_score": 5,
+   "cmp": "1.00"
+  }
+ ]
+}

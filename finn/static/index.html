@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>FINN - Indian markets research</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="rail" aria-label="Sections">
+    <a class="logo" href="#dashboard" aria-label="FINN home">F</a>
+    <nav class="rail-nav" data-nav></nav>
+  </aside>
+
+  <div class="main">
+    <header class="topbar">
+      <a class="logo logo-top" href="#dashboard" aria-label="FINN home">F</a>
+      <nav class="tabs" aria-label="Primary" data-tabs>
+        <a href="#dashboard" data-tab="dashboard">Dashboard</a>
+        <a href="#market" data-tab="market">Market Overview</a>
+        <a href="#signals" data-tab="signals">Signals</a>
+        <a href="#risk" data-tab="risk">AI Risk Analyzer</a>
+      </nav>
+      <div class="top-actions">
+        <button class="icon-btn" id="btn-search" aria-label="Choose another company" title="Choose another company">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+        <button class="icon-btn" id="btn-refresh" aria-label="Refresh data" title="Refresh data">
+          <svg viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></svg></button>
+        <button class="icon-btn" id="btn-chat" aria-label="Toggle chat" aria-controls="chat-dock" aria-expanded="false" title="Toggle chat">
+          <svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-band">
+          <div class="chips"><span class="chip" id="chip-market">Market status: loading</span>
+            <span class="chip chip-ghost">Data: Downstox free public API</span></div>
+          <h1 id="hero-title">Which company are you researching?</h1>
+          <p class="hero-sub" id="hero-sub">Type a company name or NSE symbol. Figures are labelled with their source and time; missing or stale data is shown as such.</p>
+          <div class="picker">
+            <label class="sr" for="company-input">Company name</label>
+            <input id="company-input" type="search" autocomplete="off" autocapitalize="off" spellcheck="false"
+                   placeholder="e.g. Tata Consultancy, Infosys, RELIANCE" role="combobox"
+                   aria-expanded="false" aria-controls="suggest" aria-autocomplete="list">
+            <ul id="suggest" class="suggest" role="listbox" hidden></ul>
+          </div>
+          <div class="picker-msg" id="picker-msg" role="status" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <div id="view"></div>
+    </main>
+    <footer class="foot">Third-party public data (Downstox), not an official exchange feed and not investment advice.</footer>
+  </div>
+
+  <aside class="dock" id="chat-dock" aria-label="Chat with FINN analyst">
+    <div class="dock-card card">
+      <div class="dock-head">
+        <div class="dock-title">
+          <h2>Ask FINN</h2>
+          <div class="dock-ctx" id="dock-ctx">No company selected</div>
+        </div>
+        <button class="icon-btn dock-close" id="dock-close" type="button" aria-label="Close chat" title="Close chat">
+          <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <div class="sub dock-note" id="chat-note"></div>
+      <div class="chat-log" id="chat-log" aria-live="polite"><div class="state empty"><b>No messages yet</b>Ask a question to start. Replies may be paused or limited by the app's budget guard.</div></div>
+      <form class="chat-form" id="chat-form"><label class="sr" for="chat-in">Message</label><input id="chat-in" autocomplete="off" placeholder="Ask about risks, guidance, announcements…"><button class="btn" id="chat-send" type="submit">Send</button></form>
+    </div>
+  </aside>
+</div>
+<button class="icon-btn chat-fab" id="chat-fab" type="button" aria-label="Open chat" aria-controls="chat-dock" title="Open chat">
+  <svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg></button>
+<nav class="bottom-nav" aria-label="Primary" data-nav></nav>
+<script src="/static/app.js"></script>
+</body>
+</html>

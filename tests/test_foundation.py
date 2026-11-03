@@ -650,6 +650,10 @@ class CacheTests(unittest.TestCase):
         self.assertEqual(self.cache.invalidate(ticker="RELIANCE"), 0)
         self.assertTrue(self.cache.get(other).hit)
         self.assertEqual(self.cache.invalidate(ticker="TCS", data_type="filing"), 1)
+        # Cache operations timestamp telemetry with wall-clock time. Seed one
+        # event against the fixture clock so this retention assertion remains
+        # deterministic regardless of when the suite is run.
+        self.cache.record_event(TelemetryEvent(operation="retention_fixture", occurred_at=NOW, latency_ms=0.0))
         self.assertEqual(self.cache.prune_telemetry(before=NOW + timedelta(days=1)), 1)
 
     def test_concurrent_managers_and_upserts(self):
