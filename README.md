@@ -136,3 +136,4 @@ evidence, latency and tool trajectories in `evals/results.json`; see
 - The chat endpoint has no authentication - run it locally or behind your
   own proxy.
 - Nothing here is investment advice.
+# finn_enam
